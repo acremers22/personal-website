@@ -1,0 +1,21 @@
+/* mobile first! */
+header {
+    background-color: turquoise;
+}
+
+nav li.active {
+  background-color:lightblue;
+}
+
+main{
+    padding: 50px;
+}
+
+p{
+    padding:20px;
+}
+
+
+
+
+
