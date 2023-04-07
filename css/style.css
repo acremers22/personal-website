@@ -1,10 +1,20 @@
 /* mobile first! */
+
 header {
     background-color: turquoise;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
-nav li.active {
-  background-color:lightblue;
+header h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 25px;
+    color: black;
+    font-size: 2rem;
+    padding: 30px;
 }
 
 main{
@@ -15,7 +25,59 @@ p{
     padding:20px;
 }
 
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    text-decoration: none;
+}
 
+nav li a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
 
+nav li a.active{
+    color: blue;
+}
+
+nav li.active {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+    color: rgb(255, 0, 115);
+  }
+
+  .skip-link{
+    text-decoration: none;
+  }
+
+  .skip-link button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 115px;
+    align-items: center;
+    align-self: center;
+    margin-left: auto;
+    margin-top: 50px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding: 15px;
+  }
+
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+  
 
 
